@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* 円グラフがスマホでつぶれないようにする */
+.chart-area {
+	position: relative;
+	width: 100%;
+	height: 50vh;
+}

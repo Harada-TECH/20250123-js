@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+h1 {
+  min-height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 25vh 0;  /* セクション間のスペースを確保 */
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 400px;
+  height: 150px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0 auto;
+}

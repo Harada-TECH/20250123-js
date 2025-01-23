@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>数字のカウントアップ・ダウン</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--画面に入ったら数字を動かす基点にするためのid を付与-->
+  <div id="box1" class="box">
+    <!-- count-up ← カウントアップ用class名-->
+    <p>男性の学生数<br>
+      <span class="count-up count-size">2540</span>人</p>
+  </div><!--/.box-->
+
+  <!--画面に入ったら数字を動かす基点にするためのid を付与-->
+  <div id="box2" class="box">
+    <!-- count-down ← カウントダウン用class名-->
+    <p>学食充実満足度全国<br>
+      第<span class="count-down count-size">1</span>位</p>
+  </div><!--/.box-->
+
+  <!-- jQuery本体 -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- jquery.inview -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+  <!-- 自作JS -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
